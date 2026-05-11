@@ -76,7 +76,11 @@ Aplikasi ini merupakan aplikasi note taking berbasis mobile yang dikembangkan me
    ```bash
    npm install
    ```
-3. Start the development server:
+3. Build native project (MMKV V4 requirements):
    ```bash
-   npx expo start
+   npx expo prebuild
+   ```
+3. Run project on native environment:
+   ```bash
+   npx expo run:android --device
    ```
